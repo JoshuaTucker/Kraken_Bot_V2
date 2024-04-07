@@ -1,5 +1,5 @@
 from decouple import config
 
 # keys
-API_KEY = config("api_key")
-SEC_KEY = config("private_key")
+API_KEY = config("API_KEY_KRAKEN")
+SEC_KEY = config("API_SEC_KRAKEN")
